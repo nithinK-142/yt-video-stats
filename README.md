@@ -27,6 +27,3 @@ To use this application, you need to provide a valid YouTube Data API key. Repla
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
-
-You can copy this content and save it as your `README.md` file in your GitHub repository.
