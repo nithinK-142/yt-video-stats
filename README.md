@@ -8,4 +8,25 @@ To use this web application, simply enter the URL of the YouTube video you want 
 
 ## Technologies Used
 
-This web application was built using HTML, CSS, JavaScript, and the jQuery library. It also utilizes the YouTube API and a third-party API to retrieve video statistics.
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- youtube API
+- returnyoutubedislike API
+
+## API Keys
+
+To use this application, you need to provide a valid YouTube Data API key. Replace the `apiKey` variable in the `script.js` file with your own API key.
+
+## Credits
+
+- YouTube Data API: [YouTube Data API Documentation](https://developers.google.com/youtube/v3)
+- Dislikes API: [Return YouTube Dislike API](https://returnyoutubedislikeapi.com)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+You can copy this content and save it as your `README.md` file in your GitHub repository.
