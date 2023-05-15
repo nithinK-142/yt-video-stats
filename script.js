@@ -19,7 +19,7 @@ $(document).ready(function() {
       videoId = matches[1];
     }
 
-    var apiKey = "";
+    var apiKey = "YOUR_API_KEY";
     var apiUrl = "https://www.googleapis.com/youtube/v3/videos?part=statistics,snippet&id=" + videoId + "&key=" + apiKey;
     var dislikesUrl = "https://returnyoutubedislikeapi.com/votes?videoId=" + videoId;
 
