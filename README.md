@@ -1,6 +1,8 @@
 # YouTube Video Stats
 
-This is a simple web application that retrieves statistics for a given YouTube video. It uses the YouTube API to fetch the view count, like count, and comment count for the video, and also displays the title, channel, published date, and thumbnail of the video. Additionally, it retrieves the dislike count for the video using a third-party API.[PREVIEW](https://yt-video-stats.netlify.app/)
+This web application can retrieve statistics for a given YouTube video. It uses the YouTube API to fetch the view count, like count, and comment count for the video, and also displays the title, channel, published date, and can play that video. Additionally, it retrieves the dislike count for the video using a third-party API.
+
+[PREVIEW](https://yt-video-stats.netlify.app/)
 
 ## Getting Started
 
@@ -12,8 +14,8 @@ To use this web application, simply enter the URL of the YouTube video you want 
 - CSS
 - JavaScript
 - jQuery
-- youtube API
-- returnyoutubedislike API
+- YouTube API
+- Return YouTube Dislike API
 
 ## API Keys
 
