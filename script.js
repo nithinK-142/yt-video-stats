@@ -11,7 +11,7 @@ $(document).ready(function() {
     
     var videoUrl = $("#video-url").val();
     var videoId = null;
-    var matches = videoUrl.match(/^https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]+)((?:&(\S*))?)?(?:\?(t=\d+))?$/);
+    var matches = videoUrl.match(/^https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]+)((?:&(\S*))?)?(?:\?(t=\d+))?/);
 
     if(matches){
       // console.log("URL : " +matches[0]);
