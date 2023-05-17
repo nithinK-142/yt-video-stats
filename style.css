@@ -1,3 +1,23 @@
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7cac9;
+  font-family: 'Lato', sans-serif !important;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
 h1 {
   text-align: center;
   margin-top: 5%;
@@ -9,9 +29,11 @@ h1 {
   transition: all 0.3s ease;
 }
 
-body {
-  background-color: #f7cac9;
-  font-family: 'Lato', sans-serif !important;
+
+.yt-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search-bar {
@@ -54,7 +76,7 @@ body {
 .icons {
   right: 10px;
   display: flex;
-  align-items: flex-end;  /* modified */
+  align-items: center;
   color: #555;
 }
 
@@ -64,7 +86,7 @@ body {
   border: none;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 5px;  /* modified */
+  margin-left: 5px;
 }
 
 .icons i {
@@ -78,15 +100,10 @@ body {
   color: #000;
 }
 
-.yt-stats {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .video-container {
   margin-top: 50px;
-  user-select: none;
+  user-select: none;display: flex; /* Added */
+  justify-content: center;
 }
 
 .stats-container {
@@ -96,29 +113,6 @@ body {
   align-items: center;
   margin-top: 30px;
   user-select: none;
-}
-
-footer {
-  background-color: #130f40;
-  color: #fff;
-  font-size: 14px;
-  bottom: 0;
-  position: fixed;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 999;
-}
-
-footer p {
-  margin: 6px 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-footer a {
-  color: #a24d18;
-  text-decoration: none;
-  margin-right: 5px;
 }
 
 b {
@@ -133,5 +127,23 @@ h3 {
   color: #00a8f0;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: #000;
-  display: inline-block;  /* in same line, remove for different lines */
+  display: inline-block;
+}
+
+footer {
+  background-color: #130f40;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a {
+  color: #a24d18;
+  text-decoration: none;
+  margin-left: 5px;
 }
