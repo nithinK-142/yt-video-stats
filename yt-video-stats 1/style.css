@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 44px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  color: #ffaf4b
+}
+
+body {
+  background-color: #F7CAC9;
+  font-family: 'Lato' !important;
+}
+
+.search-bar {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 30%;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  transition: box-shadow 0.3s ease;
+  font-size: 14px;
+  border: 1px solid #575756;
+}
+
+.search-bar:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: transparent;
+  margin-left: 10px;
+  color: #555;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #999;
+}
+
+.icons {
+  right: 10px;
+  display: flex;
+  align-items: right;
+  color: #555;
+}
+
+.icons button {
+  background-color: #fff;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  left: 0%;
+}
+
+.icons i {
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.icons i:hover {
+  color: #000;
+}
+
+.yt-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.stats-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #130f40;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+footer p {
+  margin: 6px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida  Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a {
+  color: #a24d18;
+  text-decoration: none;
+  margin-right:5px;
+}
+
+b{
+  font-size: 26px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #00a8f0;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+  display: inline-block;  /* in same line, remove for different lines */
+}
