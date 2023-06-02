@@ -218,3 +218,16 @@ footer a {
   margin-left: 5px;
 }
 
+/* Browser's scroll bar customization */
+::-webkit-scrollbar {
+    width: 10px; 
+    background-color: #202324 !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
